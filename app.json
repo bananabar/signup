@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/baoming/baoming",
+    "pages/activedetail/activedetail",
+    "pages/canjia/canjia"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FF4500",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#4D4D4D",
+    "selectedColor": "#FF4500",
+    "backgroundColor": "#ffffff",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "发起",
+        "iconPath": "Image/create_2.png",
+        "selectedIconPath": "Image/create_1.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "Image/mine_2.png",
+        "selectedIconPath": "Image/mine_1.png"
+      }
+    ]
+  }
+}

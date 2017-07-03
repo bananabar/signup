@@ -1,0 +1,21 @@
+<!--pages/mine/mine.wxml-->
+
+  <view class="kind-list">
+    <block wx:for="{{active}}" wx:for-index="i" wx:key="{{i}}">
+      <view class="block-list" hover-class="viewhover1">
+        <navigator url="../activedetail/activedetail?id={{active[i].Activity_Info.ID}}">
+          <view class="titletxt">
+            <text>{{active[i].Activity_Info.Name}}</text>
+          </view>
+          <view class="instructiontxt">
+            <text>{{active[i].Activity_Info.Instruction}}</text>
+          </view>
+          <view class="renshu1txt">
+            <text>共{{active[i].Activity_Info.RenShu}}个名额</text>
+          </view>
+          <view class="renshu2txt">已报名{{active[i].Activity_Info.YiBaoRenShu}}人</view>
+          <view class="datetxt">{{active[i].Activity_Info.Date}}</view>
+        </navigator>
+      </view>
+    </block>
+  </view>

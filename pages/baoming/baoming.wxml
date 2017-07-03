@@ -1,0 +1,30 @@
+<!--pages/baoming/baoming.wxml-->
+<view class="contain">
+  <view class="titlecla">
+    活动名称
+  </view>
+  <view class="inputcla">
+    <input class="titleinput" bindinput="titleinputchange" placeholder="请输入活动名称" placeholder-class="placecla" cursor-spacing="30" />
+  </view>
+  <view class="titlecla">
+    活动详情
+  </view>
+  <view class="inputcla">
+    <textarea class="introctioninput" bindinput="introctioninputchange" placeholder="请输入活动要求，时间，地点，人员等信息" placeholder-class="placecla" cursor-spacing="30" maxlength="-1" />
+  </view>
+  <view class="titlecla">
+    活动时间
+  </view>
+  <view class="inputcla">
+    <input class="titleinput" bindinput="shijianinputchange" placeholder="在线等，急" placeholder-class="placecla" cursor-spacing="30" />
+  </view>
+  <view class="titlecla">
+  </view>
+  <view class="titlecla">
+    最大人数10人
+  </view>
+  <view class="slideviewcla">
+    <slider show-value="true" min="1" max="10" bindchange="slidechange" value="{{slidevalue}}" />
+  </view>
+</view>
+<button class="btn" bindtap="submit">提交</button>

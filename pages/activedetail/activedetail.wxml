@@ -1,0 +1,24 @@
+<!--pages/activedetail/activedetail.wxml-->
+<view class="block-list">
+  <image src="{{activeInfo.PictureUrl}}" class="imgcla" background-size="cover"></image>
+  <view class="faqicla">发起人</view>
+  <view class="faqicla">{{activeInfo.Name}}</view>
+</view>
+
+<view class="block-list" hover-class="viewhover1">
+  <view class="titletxt">
+    <text>{{activeInfo.Activity_Info.Name}}</text>
+  </view>
+  <view class="instructiontxt">
+    <text>{{activeInfo.Activity_Info.Instruction}}</text>
+  </view>
+  <view class="renshu1txt">
+    <text>共{{activeInfo.Activity_Info.RenShu}}个名额</text>
+  </view>
+  <view class="renshu2txt">已报名{{activeInfo.Activity_Info.YiBaoRenShu}}人</view>
+  <view class="datetxt">{{activeInfo.Activity_Info.Date}}</view>
+</view>
+
+<button class="btn" bindtap="baoming">报名</button>
+
+<button class="btn" open-type="share">分享</button>

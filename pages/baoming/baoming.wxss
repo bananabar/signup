@@ -1,0 +1,33 @@
+/* pages/baoming/baoming.wxss */
+
+.titlecla {
+  font-size: 33rpx;
+  padding: 20rpx 0 20rpx 30rpx;
+  color: #555;
+}
+
+.inputcla {
+  background-color: #fff;
+}
+
+.titleinput {
+  padding: 20rpx 30rpx 20rpx 30rpx;
+  font-size: 38rpx;
+  width: 690rpx;
+}
+
+.introctioninput {
+  padding: 20rpx 30rpx 20rpx 30rpx;
+  font-size: 38rpx;
+  width: 690rpx;
+}
+
+.btn{
+  background-color: #FF4500;
+  color: #fff;
+  width: 690rpx;
+}
+
+.slideviewcla{
+  padding: 30rpx 0 30rpx 0;
+}

@@ -1,0 +1,39 @@
+/* pages/mine/mine.wxss */
+
+.titletxt {
+  font-size: 35rpx;
+  padding: 20rpx 30rpx 10rpx 30rpx;
+}
+
+.instructiontxt {
+  font-size: 30rpx;
+  padding: 20rpx 30rpx 10rpx 30rpx;
+  color: #aaa;
+}
+
+.renshu1txt {
+  font-size: 30rpx;
+  padding: 20rpx 30rpx 10rpx 30rpx;
+  color: #aaa;
+  float: left;
+}
+
+.renshu2txt {
+  font-size: 30rpx;
+  padding: 20rpx 30rpx 10rpx 30rpx;
+  color: #aaa;
+  float: left;
+}
+
+.datetxt {
+  font-size: 30rpx;
+  padding: 20rpx 30rpx 10rpx 30rpx;
+  color: #aaa;
+  text-align: right;
+}
+
+.block-list {
+  background-color: #fff;
+  margin: 30rpx;
+  width: 690rpx;
+}
