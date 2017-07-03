@@ -5,7 +5,14 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    items: [
+      { name: 'USA', value: '美国', checked: 'false' },
+      { name: 'CHN', value: '中国', checked: 'false' },
+      { name: 'BRA', value: '巴西', checked: 'false' },
+      { name: 'JPN', value: '日本', checked: 'false' },
+      { name: 'ENG', value: '英国', checked: 'false' },
+      { name: 'TUR', value: '法国', checked: 'false' },
+    ]
   },
 
   /**

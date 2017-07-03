@@ -1,2 +1,11 @@
 <!--pages/canjia/canjia.wxml-->
-<text>pages/canjia/canjia.wxml</text>
+<view class="title">
+  位置
+</view>
+<view class="classname">
+  <checkbox-group>
+    <label class="checkbox" wx:for="{{items}}">
+      <checkbox value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+    </label>
+  </checkbox-group>
+</view>

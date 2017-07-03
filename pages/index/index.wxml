@@ -5,8 +5,9 @@
   <view class="txt2">轻松预约活动</view>
 </view>
 <view class="btn-view">
-<button bindtap="faqibaoming" class="btn" hover-class="btn_hover">发起活动</button>
+  <button bindtap="faqibaoming" class="btn" hover-class="btn_hover">发起活动</button>
 </view>
+
 
 <!--<view class="container">
   <view  bindtap="bindViewTap" class="userinfo">
